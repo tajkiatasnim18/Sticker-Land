@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pookie Sticker Land 🎀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="logo">🎀 Sticker World</div>
+    <p class="tagline">A little world full of cuteness ♡</p>
+
+    <h1>Find Your Favorite Stickers!</h1>
+    <p>Cat stickers, pookie vibes, and all things cute 🐱</p>
+
+    <form class="search-box" id="searchForm">
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search cat, pookie, love..."
+        aria-label="Search stickers"
+      >
+      <button type="submit">Search 🔍</button>
+    </form>
+  </header>
+
+  <main class="container">
+    <nav class="categories" aria-label="Sticker categories">
+      <button class="category active" data-category="all">
+        ✨ All Stickers
+      </button>
+      <button class="category" data-category="cat">
+        🐱 Cats
+      </button>
+      <button class="category" data-category="pookie">
+        🎀 Pookie
+      </button>
+      <button class="category" data-category="spider">
+        🕷️Spider
+      </button>
+    </nav>
+
+    <div class="gallery-heading">
+      <h2 id="galleryTitle">All the Cuties ♡</h2>
+      <span id="resultCount"></span>
+    </div>
+
+    <section
+      class="sticker-grid"
+      id="stickerGrid"
+      aria-live="polite"
+    ></section>
+  </main>
+
+  <footer>
+    Made with 💗 and a little bit of pookie magic!
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
