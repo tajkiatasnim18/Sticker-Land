@@ -62,7 +62,7 @@ function displayStickers() {
       <div class="empty-message">
         <div style="font-size: 55px;">🥺</div>
         <p>No stickers found!</p>
-        <p>Try searching for cat, pookie, or love 💗</p>
+        <p>Try searching for cat, pookie, or spider 💗</p>
       </div>
     `;
     return;
@@ -79,8 +79,8 @@ img.src = sticker.image;
 img.alt = sticker.name;
 img.className = "sticker-image";
 
-img.style.setProperty("width", "150%", "important");
-img.style.setProperty("height", "120%", "important");
+img.style.setProperty("width", "140%", "important");
+img.style.setProperty("height", "110%", "important");
 img.style.setProperty("object-fit", "contain", "important");
 
 art.appendChild(img);
